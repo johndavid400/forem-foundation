@@ -84,5 +84,14 @@ blockquote::after {
 
 .info{
   background-color: #4dafcf !important;
-  border-color: #008CBA !important;
+  border-left: 1px solid rgba(255, 255, 255, 0.498039) !important
 }
+
+.danger{
+  background: #f04124 !important;
+}
+
+.button-group{
+  margin-top: 20px !important;
+}
+
