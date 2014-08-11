@@ -49,8 +49,23 @@
   }
 }
 
-.no-left-border{
-  border-left: none !important;
+body{
+  .forem-row .no-left-border{
+    border-left: none;
+  }
+
+  .info{
+    background-color: #4dafcf;
+    border-left: 1px solid rgba(255, 255, 255, 0.498039);
+  }
+
+  .danger{
+    background: #f04124;
+  }
+
+  .button-group{
+    margin-top: 20px;
+  }
 }
 
 .username{
@@ -68,30 +83,18 @@ time {
   padding-top: 10px;
 }
 
-blockquote {
+.forem-row .no-left-border blockquote {
   @extend .panel;
-  padding: 10px !important;
+  padding: 10px;
   font-size: 0.9em;
   font-style: italic;
   border-radius: 5px;
 }
+
 blockquote::before {
   content: open-quote;
 }
 blockquote::after {
   content: close-quote;
-}
-
-.info{
-  background-color: #4dafcf !important;
-  border-left: 1px solid rgba(255, 255, 255, 0.498039) !important
-}
-
-.danger{
-  background: #f04124 !important;
-}
-
-.button-group{
-  margin-top: 20px !important;
 }
 
