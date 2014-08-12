@@ -9,3 +9,64 @@ body {
 nav {
   margin-top: 10px;
 }
+
+body{
+  @extend .row;
+}
+
+.col-md-2 {
+  @extend .large-2;
+  @extend .column;
+}
+
+.col-md-7 {
+  @extend .large-10;
+  @extend .column;
+}
+
+.col-md-10 {
+  @extend .large-12;
+  @extend .column;
+}
+
+.col-md-12 {
+  @extend .large-12;
+  @extend .column;
+}
+
+.btn {
+  @extend .button;
+  @extend .tiny;
+}
+
+.btn-danger {
+  @extend .alert;
+}
+
+.btn-info {
+  @extend .info;
+}
+
+.btn-success {
+  @extend .success;
+}
+
+#new_post {
+  @extend .row;
+  .btn {
+    margin-left: 15px;
+  }
+}
+
+.post_text {
+  @extend .large-12;
+  @extend .columns;
+}
+
+#posts {
+  .post {
+    .contents:first-child {
+      border-left: none;
+    }
+  }
+}

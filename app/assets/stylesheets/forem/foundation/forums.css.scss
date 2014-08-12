@@ -9,13 +9,6 @@
   background: #efefef;
 }
 
-.forums thead th {
-  background: #158cba;
-  color: white;
-  padding: 10px;
-  border-bottom: 3px solid #232323;
-  font-size: 110%;
-}
 
 .forums .last_post {
   font-style: italic;
@@ -53,18 +46,22 @@ body{
   .forem-row .no-left-border{
     border-left: none;
   }
-
   .info{
     background-color: #4dafcf;
     border-left: 1px solid rgba(255, 255, 255, 0.498039);
   }
-
   .danger{
     background: #f04124;
   }
-
   .button-group{
     margin-top: 20px;
+  }
+  .forums thead th {
+    background: #158cba;
+    color: white;
+    padding: 10px;
+    border-bottom: 3px solid #232323;
+    font-size: 110%;
   }
 }
 
@@ -83,7 +80,7 @@ time {
   padding-top: 10px;
 }
 
-.forem-row .no-left-border blockquote {
+blockquote {
   @extend .panel;
   padding: 10px;
   font-size: 0.9em;

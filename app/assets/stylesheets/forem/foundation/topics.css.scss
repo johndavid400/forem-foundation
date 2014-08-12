@@ -26,3 +26,13 @@
 #topic .moderation {
   background: #FFED9E;
 }
+
+body{
+  .topics thead th {
+    background: #158cba;
+    color: white;
+    padding: 10px;
+    border-bottom: 3px solid #232323;
+    font-size: 110%;
+  }
+}
