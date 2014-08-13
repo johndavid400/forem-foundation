@@ -10,10 +10,6 @@ nav {
   margin-top: 10px;
 }
 
-body{
-  @extend .row;
-}
-
 .col-md-2 {
   @extend .large-2;
   @extend .column;
