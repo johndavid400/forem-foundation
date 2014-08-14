@@ -11,8 +11,9 @@
   .contents {
     border-left: 1px solid #ddd;
     padding-left: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 0px;
     min-height: 120px;
+    overflow: auto;
 
     time {
       font-size: 75%;
