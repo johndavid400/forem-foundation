@@ -10,6 +10,13 @@ nav {
   margin-top: 10px;
 }
 
+.table {
+  border-radius: 5px;
+  thead tr {
+    border-radius: 5px;
+  }
+}
+
 .col-md-2 {
   @extend .large-2;
   @extend .column;
@@ -30,13 +37,21 @@ nav {
   @extend .column;
 }
 
+.btn-group {
+  @extend .button-group;
+  @extend .radius;
+}
+
 .btn {
   @extend .button;
   @extend .tiny;
+  margin-top: 10px;
 }
 
-.btn-danger {
+body li .btn-danger {
   @extend .alert;
+  margin-left: 0px;
+  border-left: 1px solid rgba(255, 255, 255, 0.498039) !important; 
 }
 
 .btn-info {
@@ -66,3 +81,4 @@ nav {
     }
   }
 }
+
