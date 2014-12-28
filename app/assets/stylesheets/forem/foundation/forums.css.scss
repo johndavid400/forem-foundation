@@ -81,7 +81,7 @@ time {
 }
 
 body blockquote {
-  @extend .panel;
+  @extend .panel !optional;
   padding: 15px;
   font-size: 0.9em;
   font-style: italic;
